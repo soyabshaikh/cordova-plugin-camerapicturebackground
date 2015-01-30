@@ -41,7 +41,7 @@
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <service android:enabled="true" android:exported="false" android:name="me.rahul.plugins.camerapicturebackground.CameraSurfacePreview" />
-            <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" andr
+            <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true" />
         </config-file>
 
         <source-file src="src/android/CameraPictureBackground.java" target-dir="src/me/rahul/plugins/camerapicturebackground" />
